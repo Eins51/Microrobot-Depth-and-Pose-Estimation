@@ -22,13 +22,13 @@ This repository contains the implementation of a deep learning-based framework f
 ## Overview
 
 Microrobots hold promise in biomedical fields such as minimally invasive surgery and targeted drug delivery. However, tracking their 3D position and orientation poses challenges due to:
-- Transparency
 - Noise in imaging
+- Transparency of microrobots
 - Limited labeled data in microscopic datasets
 
-This project addresses these challenges by leveraging deep learning techniques for:
+This project addresses these challenges by applying deep learning techniques for:
 - **Depth Estimation**
-- **Out-of-Plane Pose Classification**
+- **Out-of-Plane Pose Estimation**
 - **Planar Rotation Angle Estimation**
 
 ---

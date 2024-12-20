@@ -16,6 +16,7 @@ This repository contains the implementation of a deep learning-based framework f
 5. [Training and Evaluation](#training-and-evaluation)
 6. [Explainability with Grad-CAM](#explainability-with-grad-cam)
 7. [Future Work](#future-work)
+8. [Supplementary Material](#supplementary-material)
 
 ---
 
@@ -226,3 +227,12 @@ Grad-CAM provides insights into the decision-making process by highlighting regi
 - **Diverse Data Augmentation**: Expand the dataset to include more complex microrobot shapes and account for real-world imaging artifacts.
 - **Real-World Testing**: Evaluate the framework on datasets with noisy and diverse imaging conditions to assess generalizability.
 - **Explainability Integration**: Enhance the use of Grad-CAM to inform model improvement and assist biomedical decision-making.
+
+
+
+------
+
+## Supplementary Material
+
+- **models_for_reference/**: Contains the implementation details of AlexNet, ResNet50, and DenseNet169 for microrobot depth and pose estimation.
+- **plot_model_architectures/**: Includes visualizations of the implemented model architectures, generated using [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet).

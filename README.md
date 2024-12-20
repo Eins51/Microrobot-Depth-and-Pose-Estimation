@@ -16,7 +16,6 @@ This repository contains the implementation of a deep learning-based framework f
 5. [Training and Evaluation](#training-and-evaluation)
 6. [Explainability with Grad-CAM](#explainability-with-grad-cam)
 7. [Future Work](#future-work)
-8. [Citation](#citation)
 
 ---
 

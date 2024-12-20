@@ -1,0 +1,11 @@
+model: 'resnet50' # alexnet resnet50 densenet169
+epoch: 50
+lr: 0.001
+batch_size: 128
+label_smooth: 0.1
+warmup_epoch: 1
+val_interval: 1
+data_root: "/workspace/data/cls_1207_data/5-FourBall-Continuous-20-03-15_Single-1"
+train_txt: "/workspace/data/cls_1207_data/depth_half_train.txt"
+val_txt: "/workspace/data/cls_1207_data/depth_half_val.txt"
+num_classes: 33 # 17 36
